@@ -30,5 +30,4 @@
 	5.5 - Fazendo o efeito do tamanho do tiro
 	5.6 - Fazendo um metodo
 	Obs:fiz o inimigo atirar de acordo com a localização dele
-	criando repositorio git
 	
