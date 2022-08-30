@@ -13,7 +13,7 @@
 	3.2 - Criando objeto
 	3.3 - Mexendo o tiro
 	3.4 - Fazendo o Jogador atirar
-		3.5 - Fazendo o tiro mudar o tamanho
+	3.5 - Fazendo o tiro mudar o tamanho
 	3.6 - Limpar o registro do tiro
 	
 4 - Inimigo
@@ -31,3 +31,6 @@
 	5.6 - Fazendo um metodo
 	Obs:fiz o inimigo atirar de acordo com a localização dele
 	
+6 - Fazendo o tiro do player acertar o inimigo
+	6.1 - Se destruit ao acertar o inimigo
+	6.2 - Criar o impacto do tipo do player
