@@ -34,3 +34,11 @@
 6 - Fazendo o tiro do player acertar o inimigo
 	6.1 - Se destruit ao acertar o inimigo
 	6.2 - Criar o impacto do tipo do player
+	6.3 - Fazendo o impacto do tiro desaparecer
+	6.4 - Fazer o tiro Não criar impacto ao sar da room
+
+7 - Fazendo o tiro do inimigo acertar o player e ser destruido
+	7.1 - Destruindo o tiro do inimigo quando ele sair da room
+
+8 - Destruindo o inimigo ao receber o tiro
+	8.1 - Fazer o tiro do player destruir o inimigo ao colidir
