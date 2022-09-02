@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-instance_destroy(id, false)//Eliminando a layer por id(sómente uma por vez)
+instance_destroy(id, false)//Aqui ele destroi a animação quando ela se encerra

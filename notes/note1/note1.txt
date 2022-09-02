@@ -42,3 +42,9 @@
 
 8 - Destruindo o inimigo ao receber o tiro
 	8.1 - Fazer o tiro do player destruir o inimigo ao colidir
+	8.2 - Fazer com que o inimigo exploda(animação)
+		8.2.1 - Criar a sprite da exploxão
+		8.2.2 - Criar o objeto explosão
+		8.2.3 - Fazer o inimigo instanciar a explosão ao morrer
+		8.2.4 - Fazer a explosão se destruirir no final sa animação
+		
