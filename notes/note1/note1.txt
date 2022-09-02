@@ -49,5 +49,7 @@
 		8.2.4 - Fazer a explosão se destruirir no final sa animação
 9 - Pequenos ajustes PT:1
 	9.1 - Fazendo o inimigo ser destroido ao sair da tela
-	
+	9.2 - Melhorando o background
+	9.3 - Melhorando o tiro do player
+
 10 - Criando o backgroud
