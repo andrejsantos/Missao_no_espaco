@@ -50,6 +50,14 @@
 9 - Pequenos ajustes PT:1
 	9.1 - Fazendo o inimigo ser destroido ao sair da tela
 	9.2 - Melhorando o background
-	9.3 - Melhorando o tiro do player
+	9.3 - Melhorando Brilho dos tiros
+		9.3.1 - Criar a sprite do brilho
+		9.3.2 - Criar o draw event
+		9.3.3 - Se desenhar
+		9.3.4 - Desenhar o Brilho
+		9.3.5 - Alterar como a GPU processa a mistura de imagens
+		9.3.6 - Criar a variavel cores
+		9.3.7 - Usar o lerp para diminuir o tamanho
+	9.4 - Deixando as explosões melhores
 
 10 - Criando o backgroud

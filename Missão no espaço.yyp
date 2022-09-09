@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":15,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_brilho_inimigo","path":"sprites/spr_brilho_inimigo/spr_brilho_inimigo.yy",},"order":6,},
     {"id":{"name":"obj_Impacto_tiro","path":"objects/obj_Impacto_tiro/obj_Impacto_tiro.yy",},"order":0,},
     {"id":{"name":"obj_tirop","path":"objects/obj_tirop/obj_tirop.yy",},"order":1,},
     {"id":{"name":"Tiro_player","path":"sprites/Tiro_player/Tiro_player.yy",},"order":1,},
