@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_explosao_inimigos",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,30 +27,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fbf6594b-c7b6-405e-9c12-7081e13beacd","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fbf6594b-c7b6-405e-9c12-7081e13beacd","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"fbf6594b-c7b6-405e-9c12-7081e13beacd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6898f4c0-d400-4e37-a944-1c529a19a871","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6898f4c0-d400-4e37-a944-1c529a19a871","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"6898f4c0-d400-4e37-a944-1c529a19a871","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"66699503-74c1-42df-99e1-23bf51fa4e19","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66699503-74c1-42df-99e1-23bf51fa4e19","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"66699503-74c1-42df-99e1-23bf51fa4e19","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"LayerId":{"name":"09b6b193-941b-4e9c-b458-1a71c65a4738","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fbf6594b-c7b6-405e-9c12-7081e13beacd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6898f4c0-d400-4e37-a944-1c529a19a871",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66699503-74c1-42df-99e1-23bf51fa4e19",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_explosao_inimigos",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -55,18 +46,18 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 7.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c0e87aa-2dd5-4b6a-bfdb-ed55b85d87f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"4404dd4f-2a4c-4165-83d8-f3ac6b2e387f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"2832ce04-ab12-4ce0-a164-8ca79cd31af2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbf6594b-c7b6-405e-9c12-7081e13beacd","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"c7b7f3c9-ad87-4771-ba2c-8926900e7cbf","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6898f4c0-d400-4e37-a944-1c529a19a871","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f4c93931-ec83-4acd-b0d6-e23a66f8e6d4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"05513e04-4c98-41f1-bd50-e4f2170488ae","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66699503-74c1-42df-99e1-23bf51fa4e19","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"02ab4766-aab7-4f89-9d96-bf52e17d9e62","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"4c0e87aa-2dd5-4b6a-bfdb-ed55b85d87f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d8a82be-10e0-4c93-9da8-c058398fe2b5","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4404dd4f-2a4c-4165-83d8-f3ac6b2e387f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd2a7c83-0728-4c67-b4d6-88c581f3c3b7","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2832ce04-ab12-4ce0-a164-8ca79cd31af2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbf6594b-c7b6-405e-9c12-7081e13beacd","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c7b7f3c9-ad87-4771-ba2c-8926900e7cbf","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6898f4c0-d400-4e37-a944-1c529a19a871","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f4c93931-ec83-4acd-b0d6-e23a66f8e6d4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92d2d4be-1e53-40f7-9774-a9f48b9c9f67","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"05513e04-4c98-41f1-bd50-e4f2170488ae","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66699503-74c1-42df-99e1-23bf51fa4e19","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"02ab4766-aab7-4f89-9d96-bf52e17d9e62","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0769f839-10e3-4a16-b36c-20ef2b0e7f90","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -82,22 +73,13 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_explosao_inimigos",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"09b6b193-941b-4e9c-b458-1a71c65a4738","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"09b6b193-941b-4e9c-b458-1a71c65a4738","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Etc",
     "path": "folders/Sprites/Etc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_explosao_inimigos",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
