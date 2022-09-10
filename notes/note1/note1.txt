@@ -47,6 +47,7 @@
 		8.2.2 - Criar o objeto explosão
 		8.2.3 - Fazer o inimigo instanciar a explosão ao morrer
 		8.2.4 - Fazer a explosão se destruirir no final sa animação
+		
 9 - Pequenos ajustes PT:1
 	9.1 - Fazendo o inimigo ser destroido ao sair da tela
 	9.2 - Melhorando o background
@@ -66,3 +67,9 @@
 		9.4.5 - Criar a variavel de cor
 
 10 - Criando o backgroud
+
+11 - Criando o segundo inimigo do jogo
+	11.1 - Importanto a sprite
+	11.2 - Criando o objeto
+	11.3 - Fazer o 2° Inimigo herdar o comportamento do 1° Inimigo
+	

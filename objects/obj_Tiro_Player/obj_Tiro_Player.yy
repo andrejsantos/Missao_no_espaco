@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Tiro_Player",
+  "name": "obj_Tiro_Player",
   "spriteId": {
-    "name": "Tiro_player",
-    "path": "sprites/Tiro_player/Tiro_player.yy",
+    "name": "spr_Tiro_player",
+    "path": "sprites/spr_Tiro_player/spr_Tiro_player.yy",
   },
   "solid": false,
   "visible": true,

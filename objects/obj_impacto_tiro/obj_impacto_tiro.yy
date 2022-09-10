@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Impacto_tiro",
   "spriteId": {
-    "name": "impacto_tiro",
-    "path": "sprites/impacto_tiro/impacto_tiro.yy",
+    "name": "spr_impacto_tiro",
+    "path": "sprites/spr_impacto_tiro/spr_impacto_tiro.yy",
   },
   "solid": false,
   "visible": true,
