@@ -59,5 +59,10 @@
 		9.3.6 - Criar a variavel cores
 		9.3.7 - Usar o lerp para diminuir o tamanho
 	9.4 - Deixando as explosões melhores
+		9.1.2 - Criar o Draw event
+		9.4.2 - Se desenhar
+		9.4.3 - Desenhar a explosão maior
+		9.4.4 - Alterando com a GPU
+		9.4.5 - Criar a variavel de cor
 
 10 - Criando o backgroud
