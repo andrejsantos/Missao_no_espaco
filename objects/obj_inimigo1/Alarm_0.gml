@@ -3,7 +3,7 @@
 
 //Criando o inimigo
 var xinimigo = random_range(80, 1840)
-instance_create_layer(xinimigo, 20, "inimigos", obj_polvo)
+instance_create_layer(xinimigo, 20, "inimigos", obj_inimigo1)
 
 
 //Criando o objeto tiro

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_polvo",
+  "name": "obj_inimigo1",
   "spriteId": {
     "name": "spr_inimigo_1",
     "path": "sprites/spr_inimigo_1/spr_inimigo_1.yy",
