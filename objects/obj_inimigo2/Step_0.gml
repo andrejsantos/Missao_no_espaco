@@ -6,17 +6,21 @@ event_inherited();
 
 
 // Checando se eu já passei do 1/3 da tela
-if y > room_height / 3{
+if y > room_height / 3 && movimento == true{
 	
 
 	//Checando o lado da room que ele está
-	if x <= 910{
+	if x >= room_width/2{
 		show_debug_message("Estou na esquerda")
-		hspeed = -3
+		hspeed = -5
+		//Avisando que não pode mais se mover
+		movimento = false
 	}
 	
 	else{
 		show_debug_message("Estou na direita")
-		hspeed = 3
+		hspeed = 5
+		//Avisando que não pode mais se mover
+		movimento = false
 	}
 }

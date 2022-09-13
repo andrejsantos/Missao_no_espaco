@@ -77,4 +77,11 @@
 		11.4.1.2 - Falando se ele está na direita
 	11.5 - Fazendo ele mudar de direção se ele já passou de 1/3 da tela
 	11.6 - Fazendo isso apenas uma vez
-	
+	11.7 -Fazendo o inimigo criar o propio tiro
+		11.7.1 - 
+12 - Criando o sugundo tiro do inimigo
+	12.1 - Importando a sprite
+	12.2 - Criando objeto
+	12.3 - Fazendo ele ser filho do tiro1
+	12.4 - Iniciar indo na direção do player
+	12.5 - Apontando para a diteção do player
