@@ -87,6 +87,9 @@
 	12.4 - Iniciar indo na direção do player
 	12.5 - Apontando para a diteção do player
 		12.5.1 - Fazendo ela ganhar 90°
-	12.6 - Atirando no player apenas se ele existir 
+	12.6 - Atirando no player apenas se ele existir
+	
+13 - Criação procedural dos inimigos
+	13.1 - Fazendo com que o objeto controle crie inimigos
 
-13 - Criando obj controlador do jogo		
+14 - Criando obj controlador do jogo		
