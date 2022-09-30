@@ -101,3 +101,8 @@
 	15.3 - Verificando o objeto controle etá em funcionamento
 	15.4 - Ganhado pontos diferantes
 	15.5 - Criar uma variavel pontos, mostrando o valor de pondos de cada inimigo
+
+16 - Criando sistema de level
+	16.1 -Iniciando a variavel level
+	16.2 - Exibindo o level
+	16.3 - Ganhado level quando eu ganhar pontos
