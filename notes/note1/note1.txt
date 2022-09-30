@@ -91,5 +91,13 @@
 	
 13 - Criação procedural dos inimigos
 	13.1 - Fazendo com que o objeto controle crie inimigos
+		13.1.1 - Fazendo ele criar de forma aleatória
 
-14 - Criando obj controlador do jogo		
+14 - Criando objeto controlador do jogo
+
+15 - Criando o sistema de pontos
+	15.1 - Iniciando a variavel pontos
+	15.2 - Ganhado pontos ao matar inimigos
+	15.3 - Verificando o objeto controle etá em funcionamento
+	15.4 - Ganhado pontos diferantes
+	15.5 - Criar uma variavel pontos, mostrando o valor de pondos de cada inimigo

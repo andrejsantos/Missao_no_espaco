@@ -1,7 +1,7 @@
 /// @description Movimento
 
 vspeed = 2
-
+pontos = 10
 //Criando uma função tiro
 atirando = function(){
 	if y >= 0{

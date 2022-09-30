@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
+
+event_inherited();//Herdando o codigo do "Pai"
+
+pontos = 20; // Recebendo 20 pontos por esse inimigo
 
 //Criando a variavel  de controle para mover para o lado
 movimento = true
