@@ -5,23 +5,22 @@
 var xdoinimigo = irandom_range(40, 1870) //Deixando o X aleatorio
 var ydoinimigo = random_range(-100, -1500)//Deixando o Y aleatorio
 
-instance_create_layer(xdoinimigo, ydoinimigo, "inimigos", obj_inimigo1)//Criando inimigo 1
+var inimigo = obj_inimigo1//Criando a variavel inimigo um
 
-
-instance_create_layer(xdoinimigo, ydoinimigo, "inimigos", obj_inimigo2)//Criando inimigo 2 
-
-
+var chance = random_range(2, level)//Criando a forma aleatoria 
 
 
 
+if chance >= 2{// Criando inimigo dois de forma aleatoria
+	inimigo = obj_inimigo2
+}
 
 
 
-
-
-
+instance_create_layer(xdoinimigo, ydoinimigo, "inimigos", inimigo)//Criando inimigos
 
 
 
 
-alarm[0] = room_speed * random_range(35, 60)
+//Reiniciando o alarme
+alarm[0] = room_speed * irandom_range(60, 120)

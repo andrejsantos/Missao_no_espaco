@@ -92,6 +92,8 @@
 13 - Criação procedural dos inimigos
 	13.1 - Fazendo com que o objeto controle crie inimigos
 		13.1.1 - Fazendo ele criar de forma aleatória
+	13.2 - Criando inimigo de acordo com o level
+	13.3 - Criando ondas
 
 14 - Criando objeto controlador do jogo
 
@@ -106,3 +108,5 @@
 	16.1 -Iniciando a variavel level
 	16.2 - Exibindo o level
 	16.3 - Ganhado level quando eu ganhar pontos
+	16.4 - Dobrando o valor do proximo level
+	
