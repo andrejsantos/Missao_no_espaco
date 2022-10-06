@@ -6,4 +6,4 @@ vspeed += 10
 image_xscale = 2
 image_yscale = 2
 //Diminuindo o tamanho
-//alarm[0] = 5
+alarm[0] = 5

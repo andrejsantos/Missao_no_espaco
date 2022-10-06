@@ -10,4 +10,4 @@ atirando = function(){
 
 }
 
-alarm[0] = 60
+alarm[0] = random(60)

@@ -1,7 +1,7 @@
 /// @description Time
 
 
-/*if y >= 1100{
+/*if y >= 1100{//Se ele passar do X indicado ele é apagado do jogo
 	instance_destroy()
 }*/
 

@@ -93,7 +93,7 @@
 	13.1 - Fazendo com que o objeto controle crie inimigos
 		13.1.1 - Fazendo ele criar de forma aleatória
 	13.2 - Criando inimigo de acordo com o level
-	13.3 - Criando ondas
+	13.3 - Criando ondas de inimigos
 
 14 - Criando objeto controlador do jogo
 
