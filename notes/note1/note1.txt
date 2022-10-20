@@ -94,6 +94,8 @@
 		13.1.1 - Fazendo ele criar de forma aleatória
 	13.2 - Criando inimigo de acordo com o level
 	13.3 - Criando ondas de inimigos
+	13.4 - Criar as ondas quando acabar os inimigos
+	13.5 - Criar a qauntidade de inimigos juntos com o level
 
 14 - Criando objeto controlador do jogo
 
