@@ -10,7 +10,13 @@ pontos = 0
 level = 1
 
 //Proximo level
-Plvl = 100
+Plvl = 10
+
+//Checando colisão 
+if place_meeting(x, y, obj_inimigo1) 
+{
+		instance_destroy(id, false)
+}
 
 //Criando um metodo para ganhar pontos
 ///@method ganha_pontos(pontos) /*Aqui ele é uma indicação do que essa função vai receber (na parte inferior esquerda)*/

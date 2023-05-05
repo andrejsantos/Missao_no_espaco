@@ -2,9 +2,11 @@
 // You can write your code in this editor
 //laõ de repetição de codigo
 
-if !instance_exists(obj_inimigo1){//se NÃO existe instancia(inimigos) 
-	
-	repeat(10){
+if !instance_exists(obj_inimigo1) //se NÃO existe instancia(inimigos) 
+{
+	var repetir = 10 * level;
+	repeat(repetir)
+	{
 		criar_inimigo()// Função criando inimigos
 	}
 }
