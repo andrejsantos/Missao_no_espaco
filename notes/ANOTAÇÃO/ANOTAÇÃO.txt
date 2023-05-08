@@ -1,0 +1,49 @@
+1 - Criandop o Player
+	1.1 - Importando sprite
+	1.2 - Criando objeto player
+	1.3 - Movendo op player
+	1.4 - Melhorando o codigo de movimantação
+	
+2 - Ajustando dimensões da room
+	2.1 - Criando uma viewport e camera para o jogo
+	2.2 - Ajustando as dimensões para view ser grande
+
+3 - Atirando
+	3.1 - Importando tiro
+	3.2 - Criando objeto
+	3.3 - Mexendo o tiro
+	3.4 - Fazendo o Jogador atirar
+	3.5 - Fazendo o tiro mudar o tamanho
+	3.6 - Limpar o registro do tiro
+	
+4 - Inimigo
+	4.1 - Importando sprite
+	4.2 - Criando o objeto
+	4.3 - Fazer ele ir para baixo
+	obs:Criei o personagem aleatorio no cenario e fiz ele morrer e ser apagado.
+	
+5 - Fazendo o inimigo 1 atira
+	5.1 - Importando o tipo
+	5.2 - Criando ojeto tiro
+	5.3 - Fazendo o tiro ir para baixo
+	5.4 - Atirando de fato
+	5.5 - Fazendo o efeito do t 
+	15.3 - Verificando o objeto controle etá em funcionamento
+	15.4 - Ganhado pontos diferantes
+	15.5 - Criar uma variavel pontos, mostrando o valor de pondos de cada inimigo
+
+16 - Criando sistema de level
+	16.1 - Iniciando a variavel level
+	16.2 - Exibindo o level
+	16.3 - Ganhado level quando eu ganhar pontos
+	16.4 - Dobrando o valor do proximo level
+	
+17 - Dando leveis para os tiros
+	17.1 - Criando sistema de levei
+	17.2 - Criando Debug
+	17.3 - Fazendo o player dar o segundo tiro no level 02  
+	
+19 - Criando o segundo tiro
+	19.1 - Importando a sprite
+	19.2 - Criando o objeto tiro 02
+	19.3 - Fazer ele ser filho do primeiro tiro

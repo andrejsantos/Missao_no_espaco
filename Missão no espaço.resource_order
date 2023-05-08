@@ -1,10 +1,16 @@
 {
   "FolderOrderSettings": [
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Poder","order":8,"path":"folders/Objects/Poder.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_tiro_02","order":2,"path":"sprites/spr_tiro_02/spr_tiro_02.yy",},
     {"name":"spr_brilho_inimigo","order":6,"path":"sprites/spr_brilho_inimigo/spr_brilho_inimigo.yy",},
     {"name":"obj_controle","order":7,"path":"objects/obj_controle/obj_controle.yy",},
+    {"name":"obj_tiro_02","order":2,"path":"objects/obj_tiro_02/obj_tiro_02.yy",},
     {"name":"obj_tiro2","order":3,"path":"objects/obj_tiro2/obj_tiro2.yy",},
     {"name":"obj_tirop","order":1,"path":"objects/obj_tirop/obj_tirop.yy",},
     {"name":"spr_Tiro_player","order":1,"path":"sprites/spr_Tiro_player/spr_Tiro_player.yy",},
