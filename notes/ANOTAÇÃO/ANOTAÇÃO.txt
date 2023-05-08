@@ -47,3 +47,5 @@
 	19.1 - Importando a sprite
 	19.2 - Criando o objeto tiro 02
 	19.3 - Fazer ele ser filho do primeiro tiro
+	19.4 - Ajustando efeitos do tiro 2
+	19.5 - Criando dois tiros 
