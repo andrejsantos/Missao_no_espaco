@@ -36,3 +36,22 @@ x += (right - left) * velocidade
 
 //Criando tiro
 atirando()
+
+
+//Teste Level de tiro
+if keyboard_check_pressed(vk_up) 
+{
+	if level_tiro < 5 //Elevando até o 5 
+	{
+	level_tiro ++;
+	}
+}
+
+if keyboard_check_pressed(vk_down) 
+{
+	if level_tiro > 1 //Elevando até o 5 
+	{
+	level_tiro --;
+	}
+}
+show_debug_message(level_tiro)

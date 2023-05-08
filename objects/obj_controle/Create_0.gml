@@ -10,7 +10,7 @@ pontos = 0
 level = 1
 
 //Proximo level
-Plvl = 10
+Plvl = 100
 
 //Checando colisão 
 if place_meeting(x, y, obj_inimigo1) 
