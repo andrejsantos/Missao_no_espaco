@@ -50,3 +50,5 @@
 	19.4 - Ajustando efeitos do tiro 2
 	19.5 - Criando dois tiros 
 	19.6 - Fazendo efeito do tiro dois (zig-Zag)
+	19.7 - Crianto o 3° tiro
+		19.7.1 - 
