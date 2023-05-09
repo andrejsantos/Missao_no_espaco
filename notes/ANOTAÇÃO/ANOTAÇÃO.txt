@@ -49,3 +49,4 @@
 	19.3 - Fazer ele ser filho do primeiro tiro
 	19.4 - Ajustando efeitos do tiro 2
 	19.5 - Criando dois tiros 
+	19.6 - Fazendo efeito do tiro dois (zig-Zag)

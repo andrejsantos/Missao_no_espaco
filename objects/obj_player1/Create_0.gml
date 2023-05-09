@@ -17,8 +17,10 @@ atirando = function()
 	
 	 else if fire and level_tiro == 2 
 	{
-		instance_create_layer(x - 43, y  - sprite_height/3, "Tiros", obj_tiro_02)	
-		instance_create_layer(x + 43, y  - sprite_height/3, "Tiros", obj_tiro_02)
+		var tiro_es = instance_create_layer(x - 43, y  - sprite_height/3, "Tiros", obj_tiro_02)	
+		 tiro_es.hspeed = 6
+		var tiro_dr = instance_create_layer(x + 43, y  - sprite_height/3, "Tiros", obj_tiro_02)
+		tiro_dr.hspeed = -6
 	}
 
 }
