@@ -42,26 +42,24 @@ atirando = function()
 tiro2 = function()
 {
 	var tiro_es = instance_create_layer(x - 43, y  - sprite_height/3, "Tiros", obj_tiro_02)	
-	tiro_es.hspeed = 6
+	tiro_es.hspeed = 5
 	var tiro_dr = instance_create_layer(x + 43, y  - sprite_height/3, "Tiros", obj_tiro_02)
-	tiro_dr.hspeed = -6
+	tiro_dr.hspeed = - 5
 }
 
 tiro4 = function() 
 {
 	instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
-	var tiro4_es = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)	
-	tiro4_es.hspeed = 6
-	var tiro4_dr = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
-	tiro4_dr.hspeed = -6
+	var tiro4_dr = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)	
+	tiro4_dr.hspeed = 4
+	tiro4_dr.image_angle = direction - 30
+	var tiro4_es = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
+	tiro4_es.hspeed = - 4
+	tiro4_es.image_angle = direction + 30
 }
 
 tiro5 = function()
 {
 	tiro2()
-	instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
-	var tiro4_es = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)	
-	tiro4_es.hspeed = 6
-	var tiro4_dr = instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
-	tiro4_dr.hspeed = -6
+	tiro4()
 }
