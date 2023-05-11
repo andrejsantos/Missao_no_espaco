@@ -68,3 +68,15 @@ tiro4 = function()
 	tiro4_es.hspeed = - 4
 	tiro4_es.image_angle = direction + 30*/
 }
+
+leveu_up = function(_chance)
+{
+	if (_chance >= 90)
+	{
+	
+		if level_tiro < 5 
+		{
+			level_tiro ++
+		}
+	}
+}
