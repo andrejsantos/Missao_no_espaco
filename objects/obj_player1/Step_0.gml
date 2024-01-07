@@ -1,4 +1,4 @@
-/// @description Iniciando variaveis
+ /// @description Iniciando variaveis
 //Movendo o player
 
 /*if keyboard_check(ord("A")){
