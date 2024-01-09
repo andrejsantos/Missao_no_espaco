@@ -1,9 +1,11 @@
-/// @description Insert description here
+ /// @description Insert description here
 
 
-velocidade = 5
+velocidade = 5;
 
-level_tiro = 1
+espera_tiro = room_speed;
+
+level_tiro = 1;
 
 
 //Criando uma função tiro
@@ -17,7 +19,7 @@ atirando = function()
 	}
 	
 	 else if fire and level_tiro == 2 
-	{
+	{ 
 		tiro2()
 	}
 	
@@ -69,14 +71,28 @@ tiro4 = function()
 	tiro4_es.image_angle = direction + 30*/
 }
 
-leveu_up = function(_chance)
+///@method level_up(chance)
+level_up = function(_chance)
 {
 	if (_chance >= 90)
 	{
-	
-		if level_tiro < 5 
+		if (level_tiro < 5)
 		{
-			level_tiro ++
+			level_tiro ++;
+		}
+	}
+	else if (_chance >= 45)
+	{
+		if (espera_tiro > 20)
+		{
+			espera_tiro *= 0.9;
+		}
+	}
+	else
+	{
+		if (velocidade < 10)
+		{
+			velocidade += .5;
 		}
 	}
 }

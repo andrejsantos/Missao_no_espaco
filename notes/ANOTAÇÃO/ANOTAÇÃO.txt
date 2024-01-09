@@ -51,4 +51,14 @@
 	19.5 - Criando dois tiros 
 	19.6 - Fazendo efeito do tiro dois (zig-Zag)
 	19.7 - Crianto o 3° tiro
-		19.7.1 - fds
+	19.8 - Criando o quinto level do tiro
+	
+20 - Fazendo o player ganhar power uo
+	20.1 - Criando a sprite do power up
+	20.2 - Criando o objeto do poer up
+	20.3 - Criar o chance de cada power up
+	20.4 - Criar o método level up no player
+	20.5 - Fazer o item colidir com o player e dar o power up para ele
+	20.6 - Destruir o item ao colidir com o player
+	
+	

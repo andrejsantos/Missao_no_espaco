@@ -53,7 +53,7 @@
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},},
-    {"id":{"name":"PW_01","path":"objects/PW_01/PW_01.yy",},},
+    {"id":{"name":"Obj_power","path":"objects/Obj_power/Obj_power.yy",},},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},},
     {"id":{"name":"ANOTAÇÃO","path":"notes/ANOTAÇÃO/ANOTAÇÃO.yy",},},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},},
