@@ -79,6 +79,7 @@ level_up = function(_chance)
 		if (level_tiro < 5)
 		{
 			level_tiro ++;
+			show_debug_message("TIRO NOVO")
 		}
 	}
 	else if (_chance >= 45)
@@ -86,6 +87,7 @@ level_up = function(_chance)
 		if (espera_tiro > 20)
 		{
 			espera_tiro *= 0.9;
+			show_debug_message("ESPERA TIRO")
 		}
 	}
 	else
@@ -93,6 +95,7 @@ level_up = function(_chance)
 		if (velocidade < 10)
 		{
 			velocidade += .5;
+			show_debug_message("MODO TURBO")
 		}
 	}
 }

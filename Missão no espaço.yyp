@@ -36,7 +36,6 @@
     {"id":{"name":"spr_brilho_inimigo","path":"sprites/spr_brilho_inimigo/spr_brilho_inimigo.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_tiro_02","path":"objects/obj_tiro_02/obj_tiro_02.yy",},},
-    {"id":{"name":"Obj_powerup","path":"objects/Obj_powerup/Obj_powerup.yy",},},
     {"id":{"name":"obj_Impacto_tiro","path":"objects/obj_Impacto_tiro/obj_Impacto_tiro.yy",},},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},},
     {"id":{"name":"obj_tiro2","path":"objects/obj_tiro2/obj_tiro2.yy",},},

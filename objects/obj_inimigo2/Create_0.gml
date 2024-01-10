@@ -4,6 +4,8 @@
 
 event_inherited();//Herdando o codigo do "Pai"
 
+chancepw = 40;
+
 pontos = 20; // Recebendo 20 pontos por esse inimigo
 
 //Criando a variavel  de controle para mover para o lado
