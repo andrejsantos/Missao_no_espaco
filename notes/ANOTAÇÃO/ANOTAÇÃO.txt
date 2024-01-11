@@ -74,5 +74,13 @@
 	21.4 - Criar uma layer para o escudo
 	21.5 - Fazendo o escudo ficar na posição do player
 		21.5.1 - Corrigindo o delay (Não precisei fazer)
-	21.6 - Destruindo os tiros
-	
+	21.6 - Destruindo os tiros e inimigos
+	21.7 - Aumentando o escudo
+	21.8 - Animando o escudo
+		21.8.1 - Parando animação
+		21.8.2 - Voltando a imagem
+			21.8.2.1 - Alarm de 2s
+			21.8.2.2 - Voltando imagem
+			21.8.2.3 - Se destruindo no proximo alarme
+	21.9 - Melhorando o escudo
+		21.9.1 - Dando uma trasparencia para o escudo

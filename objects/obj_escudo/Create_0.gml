@@ -1,19 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+//Aumentando o tamanho
+image_xscale = 1.3
+image_yscale = 1.3
 
-
-if object_exists(obj_escudo)
-{
-	
-}
-
-
-
-
-
-
-
-
-
-
+//Deixando o escudo transparente
+image_alpha = .5
