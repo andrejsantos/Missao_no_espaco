@@ -84,3 +84,4 @@
 			21.8.2.3 - Se destruindo no proximo alarme
 	21.9 - Melhorando o escudo
 		21.9.1 - Dando uma trasparencia para o escudo
+		21.9.2 - colocando o efeito blendmode 
