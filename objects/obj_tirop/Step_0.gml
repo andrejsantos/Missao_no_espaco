@@ -1,4 +1,4 @@
-/// @description Destruindo o tiro
+ /// @description Destruindo o tiro
 
 
 /*if y >= 1100{

@@ -11,14 +11,12 @@ if y > room_height / 3 && movimento == true{
 
 	//Checando o lado da room que ele está
 	if x >= room_width/2{
-		show_debug_message("Estou na esquerda")
 		hspeed = -5
 		//Avisando que não pode mais se mover
 		movimento = false
 	}
 	
 	else{
-		show_debug_message("Estou na direita")
 		hspeed = 5
 		//Avisando que não pode mais se mover
 		movimento = false

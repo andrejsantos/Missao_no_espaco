@@ -84,7 +84,7 @@ level_up = function(_chance)
 	}
 	else if (_chance >= 45)
 	{
-		if (espera_tiro > 20)
+		if (espera_tiro < 20)
 		{
 			espera_tiro *= 0.9;
 			show_debug_message("ESPERA TIRO")

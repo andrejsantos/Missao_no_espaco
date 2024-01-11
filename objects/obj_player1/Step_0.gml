@@ -17,11 +17,19 @@ if keyboard_check(ord("S")){
 
 //Melhorando o codigo de movimentação
 
-var up, down, left, right//Criando as variaveis
+var up, down, left, right, escudo//Criando as variaveis
 up = keyboard_check(ord("W"))//Cima
 down = keyboard_check(ord("S"))//Baixo
 left = keyboard_check(ord("A"))//Esquerda
 right = keyboard_check(ord("D"))//Direita
+escudo = keyboard_check_pressed(ord("E"))
+
+
+//Criando o escudo
+if (escudo)
+{
+	instance_create_layer(x, y,"Escudo", obj_escudo)
+}
 
 
 //Dando velocidade
