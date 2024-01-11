@@ -6,4 +6,4 @@ image_xscale = 1.3
 image_yscale = 1.3
 
 //Deixando o escudo transparente
-image_alpha = .5
+image_alpha = .8

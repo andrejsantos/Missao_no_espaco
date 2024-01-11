@@ -84,4 +84,10 @@
 			21.8.2.3 - Se destruindo no proximo alarme
 	21.9 - Melhorando o escudo
 		21.9.1 - Dando uma trasparencia para o escudo
-		21.9.2 - colocando o efeito blendmode 
+		21.9.2 - colocando o efeito blendmode
+22 - Ajustes gerais
+	22.1 - Mascaras de colisão
+	22.2 - Dando colisão entre o player e os inimigos
+	
+23 - Fazendo o player morrer
+	
