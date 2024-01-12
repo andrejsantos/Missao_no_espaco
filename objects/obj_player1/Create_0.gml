@@ -1,5 +1,6 @@
  /// @description Insert description here
 
+Vida = 3
 
 velocidade = 5;
 
@@ -98,4 +99,9 @@ level_up = function(_chance)
 			show_debug_message("MODO TURBO")
 		}
 	}
+}
+
+if vida = 0
+{
+	instance_destroy()
 }
