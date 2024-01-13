@@ -85,9 +85,11 @@
 	21.9 - Melhorando o escudo
 		21.9.1 - Dando uma trasparencia para o escudo
 		21.9.2 - colocando o efeito blendmode
+		
 22 - Ajustes gerais
 	22.1 - Mascaras de colisão
 	22.2 - Dando colisão entre o player e os inimigos
+	22.3 - Ajustando transparendi do power up (Não fiz)
 	
 23 - Fazendo o player morrer
 	23.1 - Dando vida para o player 
@@ -99,5 +101,9 @@
 	23.7 - Criando uma tela de game ove
 		23.7.1 - criando a  sequence de game ove
 		23.7.2 - Instanciando a sequence na room
-		23.7.3 - Criando sequencia caso o plaer morrer
+			23.7.2.1 - Checando se o plaey existe
+			23.7.2.2 - Checando pelo control
+		23.7.3 - Reiniciando ao apertar enter
+		
+24 - Screenshake	
 	

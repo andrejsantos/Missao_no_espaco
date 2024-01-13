@@ -3,9 +3,9 @@
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Poder","order":8,"path":"folders/Objects/Poder.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Sequence","order":6,"path":"folders/Sequence.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
-    {"name":"Sequence","order":6,"path":"folders/Sequence.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tiro_02","order":2,"path":"sprites/spr_tiro_02/spr_tiro_02.yy",},

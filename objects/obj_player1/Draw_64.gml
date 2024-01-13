@@ -12,10 +12,11 @@ repeat(vida)
 	draw_sprite_ext(spr_player, image_index, 30 + espaco * mult, 680, .4, .4, 0, c_white, .8)
 	mult ++;// Depois de desenhar aumente o multiplicador
 }
-
+// Resetando o vaor do multiplicador
+mult = 0
 repeat(qescudo)
 {
-	draw_sprite_ext(spr_escudo, 2, 30 + espaco * mult, 680, .4, .4, 0, c_aqua, .8)
+	draw_sprite_ext(spr_escudo, 2, 30 + espaco * mult, 620, .4, .4, 0, c_aqua, .8)
 	mult ++;// Depois de desenhar aumente o multiplicador
 }
 

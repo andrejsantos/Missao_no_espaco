@@ -13,6 +13,7 @@ Plvl = 100
 
 gameover_seq = noone
 
+
 //Checando colisão 
 if place_meeting(x, y, obj_inimigo1) 
 {
@@ -35,7 +36,7 @@ ganha_pontos = function(_pontos){   //Recebendo um parametro temporario
 criar_inimigo = function(){
 
 	var xdoinimigo = irandom_range(40, 1870) //Deixando o X aleatorio
-	var ydoinimigo = irandom_range(-100, -1500)//Deixando o Y aleatorio
+	var ydoinimigo = irandom_range(-100, -1500 - (level * 500))//Deixando o Y aleatorio, e deixando o espaço dos inimigos maior
 	var inimigo = obj_inimigo1//Criando a variavel inimigo um
 
 	var chance = random_range(0, level)//Criando chance de aparecer inimigos 1 e 2
