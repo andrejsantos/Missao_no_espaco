@@ -2,6 +2,11 @@
 
 alarm[0] = room_speed
 
+//Sistema de vida
+vida = 3
+
+//Sistema de escudo
+escudo = 0
 
 //Iniciando o sistema de pontos
 pontos = 0

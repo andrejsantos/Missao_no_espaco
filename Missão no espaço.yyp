@@ -39,6 +39,7 @@
     {"id":{"name":"obj_Impacto_tiro","path":"objects/obj_Impacto_tiro/obj_Impacto_tiro.yy",},},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},},
     {"id":{"name":"obj_tiro2","path":"objects/obj_tiro2/obj_tiro2.yy",},},
+    {"id":{"name":"obj_explosao_player","path":"objects/obj_explosao_player/obj_explosao_player.yy",},},
     {"id":{"name":"obj_tirop","path":"objects/obj_tirop/obj_tirop.yy",},},
     {"id":{"name":"spr_Tiro_player","path":"sprites/spr_Tiro_player/spr_Tiro_player.yy",},},
     {"id":{"name":"spr_explosao_inimigos","path":"sprites/spr_explosao_inimigos/spr_explosao_inimigos.yy",},},

@@ -1,10 +1,10 @@
  /// @description Insert description here
 
-Vida = 3
+vida = 3;
 
 velocidade = 5;
 
-espera_tiro = room_speed;
+qescudo = 3;
 
 level_tiro = 1;
 
@@ -85,10 +85,10 @@ level_up = function(_chance)
 	}
 	else if (_chance >= 45)
 	{
-		if (espera_tiro < 20)
+		if (qescudo < 3)
 		{
-			espera_tiro *= 0.9;
-			show_debug_message("ESPERA TIRO")
+			qescudo ++;
+			show_debug_message(qescudo)
 		}
 	}
 	else
@@ -101,7 +101,12 @@ level_up = function(_chance)
 	}
 }
 
-if vida = 0
+///@method perde_vida();
+perde_vida = function()
 {
+ vida--;
+ if vida = 0
+ {
 	instance_destroy()
+ }
 }

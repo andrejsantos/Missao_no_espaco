@@ -90,4 +90,9 @@
 	22.2 - Dando colisão entre o player e os inimigos
 	
 23 - Fazendo o player morrer
+	23.1 - Dando vida para o player 
+	23.2 - Criando o método perde vida
+	23.3 - Fazendo ele morrer a 0 vidas
+	23.4 - Explosão do player
+	23.5 - Exibindo a vida do player
 	

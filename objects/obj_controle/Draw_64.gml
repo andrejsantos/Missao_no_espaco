@@ -1,10 +1,10 @@
 /// @description Pontos
 
-//Colocando pontos
-draw_text(10, 10, pontos)
+
+draw_text(10, 50, pontos)
 
 //Colocando leveis
-draw_text(10, 30, level)
+draw_text(10, 70, level)
 
 
 

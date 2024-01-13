@@ -13,6 +13,7 @@
     {"name":"obj_tiro_02","order":2,"path":"objects/obj_tiro_02/obj_tiro_02.yy",},
     {"name":"spr_escudo","order":8,"path":"sprites/spr_escudo/spr_escudo.yy",},
     {"name":"obj_tiro2","order":3,"path":"objects/obj_tiro2/obj_tiro2.yy",},
+    {"name":"obj_explosao_player","order":2,"path":"objects/obj_explosao_player/obj_explosao_player.yy",},
     {"name":"obj_tirop","order":1,"path":"objects/obj_tirop/obj_tirop.yy",},
     {"name":"spr_Tiro_player","order":1,"path":"sprites/spr_Tiro_player/spr_Tiro_player.yy",},
     {"name":"spr_fundo2","order":4,"path":"sprites/spr_fundo2/spr_fundo2.yy",},
