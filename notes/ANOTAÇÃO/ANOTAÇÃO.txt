@@ -95,4 +95,9 @@
 	23.3 - Fazendo ele morrer a 0 vidas
 	23.4 - Explosão do player
 	23.5 - Exibindo a vida do player
+	23.6 - Perdendo vida com colisão inimiga
+	23.7 - Criando uma tela de game ove
+		23.7.1 - criando a  sequence de game ove
+		23.7.2 - Instanciando a sequence na room
+		23.7.3 - Criando sequencia caso o plaer morrer
 	

@@ -11,6 +11,8 @@ level = 1
 //Proximo level
 Plvl = 100
 
+gameover_seq = noone
+
 //Checando colisão 
 if place_meeting(x, y, obj_inimigo1) 
 {
