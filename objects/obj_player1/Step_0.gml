@@ -17,24 +17,14 @@ if keyboard_check(ord("S")){
 
 //Melhorando o codigo de movimentação
 
-var up, down, left, right, escudo, renascer//Criando as variaveis
+var up, down, left, right,//Criando as variaveis
 up = keyboard_check(ord("W"))//Cimaa
 down = keyboard_check(ord("S"))//Baixo
 left = keyboard_check(ord("A"))//Esquerda
 right = keyboard_check(ord("D"))//Direita
-escudo = keyboard_check_pressed(ord("E"))
 
 
 
-
-
-//Criando o escudo
-if (escudo and qescudo > 0)
-{
-	qescudo --; // Gastando o escudo
-	instance_create_layer(x, y,"Escudo", obj_escudo)// Criando o escudo
-	show_debug_message(qescudo) // Quantidade de escudo
-}
 
 
 //Dando velocidade
@@ -47,6 +37,8 @@ x += right * velocidade*/
 y += (down - up) * velocidade/*O valor maior - o menor vezes a velocidade*/
 x += (right - left) * velocidade
 
+//Criando escudo
+escudo()
 //Criando tiro
 atirando()
 
@@ -67,5 +59,5 @@ atirando()
 //	level_tiro --;
 //	}
 //}
-show_debug_message(vida)
+
 

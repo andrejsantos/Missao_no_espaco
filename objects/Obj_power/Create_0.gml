@@ -2,7 +2,7 @@ vspeed = 1
 chance = random(100);
 
 
-if (chance >= 90)
+if (chance >= 95)
 {
 	cor = c_red
 }

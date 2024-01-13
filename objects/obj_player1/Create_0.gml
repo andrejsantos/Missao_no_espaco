@@ -8,6 +8,17 @@ qescudo = 3;
 
 level_tiro = 1;
 
+//Criando o escudo
+escudo = function()
+{
+	var cri_escudo = keyboard_check_pressed(ord("E"))
+	
+	if (cri_escudo and qescudo > 0)
+	{
+		qescudo --; // Gastando o escudo
+		instance_create_layer(x, y,"Escudo", obj_escudo)// Criando o escudo
+	}
+}
 
 //Criando uma função tiro
 atirando = function()
@@ -73,14 +84,13 @@ tiro4 = function()
 }
 
 ///@method level_up(chance)
-level_up = function(_chance)
+Power_up = function(_chance)
 {
-	if (_chance >= 90)
+	if (_chance >= 95)
 	{
 		if (level_tiro < 5)
 		{
 			level_tiro ++;
-			show_debug_message("TIRO NOVO")
 		}
 	}
 	else if (_chance >= 45)
@@ -88,7 +98,6 @@ level_up = function(_chance)
 		if (qescudo < 3)
 		{
 			qescudo ++;
-			show_debug_message(qescudo)
 		}
 	}
 	else
@@ -96,7 +105,6 @@ level_up = function(_chance)
 		if (velocidade < 10)
 		{
 			velocidade += .5;
-			show_debug_message("MODO TURBO")
 		}
 	}
 }

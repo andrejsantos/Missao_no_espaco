@@ -52,6 +52,7 @@
     {"id":{"name":"obj_Tiro_Player","path":"objects/obj_Tiro_Player/obj_Tiro_Player.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},},
+    {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},},
     {"id":{"name":"Obj_power","path":"objects/Obj_power/Obj_power.yy",},},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},},

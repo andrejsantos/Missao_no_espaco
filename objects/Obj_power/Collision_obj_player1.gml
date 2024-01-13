@@ -1,5 +1,5 @@
 
-other.level_up(chance)
+other.Power_up(chance)
 
 
 

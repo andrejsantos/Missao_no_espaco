@@ -24,6 +24,7 @@
     {"name":"spr_inimigo2","order":4,"path":"sprites/spr_inimigo2/spr_inimigo2.yy",},
     {"name":"obj_Tiro_Player","order":1,"path":"objects/obj_Tiro_Player/obj_Tiro_Player.yy",},
     {"name":"obj_inimigo2","order":2,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
+    {"name":"spr_gameover","order":9,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"spr_impacto_tiro","order":1,"path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},
     {"name":"obj_escudo","order":2,"path":"objects/obj_escudo/obj_escudo.yy",},
     {"name":"spr_fundo1","order":3,"path":"sprites/spr_fundo1/spr_fundo1.yy",},
