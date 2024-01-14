@@ -18,14 +18,10 @@ if keyboard_check(ord("S")){
 //Melhorando o codigo de movimentação
 
 var up, down, left, right,//Criando as variaveis
-up = keyboard_check(ord("W"))//Cimaa
+up = keyboard_check(ord("W"))//Cima
 down = keyboard_check(ord("S"))//Baixo
 left = keyboard_check(ord("A"))//Esquerda
 right = keyboard_check(ord("D"))//Direita
-
-
-
-
 
 //Dando velocidade
 /*y -= up * velocidade
@@ -36,6 +32,19 @@ x += right * velocidade*/
 //Dando velocidade com codigo reduzido
 y += (down - up) * velocidade/*O valor maior - o menor vezes a velocidade*/
 x += (right - left) * velocidade
+
+// Colisão com as bordas
+//if (y >= 1020) y = 1020
+
+//else if (y <= 65) y = 65
+
+//if (x <= 64) x = 64
+
+//else if (x >= 1856) x = 1856
+
+//Nova função de "colisão"
+x = clamp(x, 64, 1856)
+y = clamp(y, 65, 1020)
 
 //Criando escudo
 escudo()

@@ -115,5 +115,5 @@
 	24.8 - Criando screenshake do player
 
 25 - Ajustes gerais
-	25.1 -Randomizando o jogo
-	
+	25.1 - Randomizando o jogo
+	25.2 - Inpedindo o player de sair da tela

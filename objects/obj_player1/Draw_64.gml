@@ -16,7 +16,7 @@ repeat(vida)
 mult = 0
 repeat(qescudo)
 {
-	draw_sprite_ext(spr_escudo, 2, 30 + espaco * mult, 620, .4, .4, 0, c_aqua, .8)
+	draw_sprite_ext(spr_escudo, 2, 1135 + espaco * mult, 690, .4, .4, 0, c_aqua, .8)
 	mult ++;// Depois de desenhar aumente o multiplicador
 }
 
