@@ -105,5 +105,15 @@
 			23.7.2.2 - Checando pelo control
 		23.7.3 - Reiniciando ao apertar enter
 		
-24 - Screenshake	
+24 - Screenshake
+	24.1 - Criar um objeto para o screenshake
+	24.2 - Fazendo a tela tremer
+	24.3 - Deixando ele mais leve
+	24.4 - Destruindo o screenshake
+	24.6 - Criando o screenshake do inimigo
+	24.7 - Criando uma função para defenir a força dele
+	24.8 - Criando screenshake do player
+
+25 - Ajustes gerais
+	25.1 -Randomizando o jogo
 	

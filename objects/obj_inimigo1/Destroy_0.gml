@@ -9,3 +9,5 @@ if (instance_exists(obj_controle))
 } 
 
 dropando_item(chancepw)
+
+Screenshake(1)

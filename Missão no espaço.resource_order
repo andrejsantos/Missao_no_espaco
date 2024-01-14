@@ -6,6 +6,7 @@
     {"name":"Sequence","order":6,"path":"folders/Sequence.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
+    {"name":"Scripts","order":7,"path":"folders/Scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tiro_02","order":2,"path":"sprites/spr_tiro_02/spr_tiro_02.yy",},
@@ -18,6 +19,7 @@
     {"name":"obj_tirop","order":1,"path":"objects/obj_tirop/obj_tirop.yy",},
     {"name":"spr_Tiro_player","order":1,"path":"sprites/spr_Tiro_player/spr_Tiro_player.yy",},
     {"name":"spr_fundo2","order":4,"path":"sprites/spr_fundo2/spr_fundo2.yy",},
+    {"name":"obj_screenshake","order":9,"path":"objects/obj_screenshake/obj_screenshake.yy",},
     {"name":"obj_impacto_inimigo","order":1,"path":"objects/obj_impacto_inimigo/obj_impacto_inimigo.yy",},
     {"name":"spr_tirog","order":2,"path":"sprites/spr_tirog/spr_tirog.yy",},
     {"name":"spr_brilho","order":5,"path":"sprites/spr_brilho/spr_brilho.yy",},

@@ -112,9 +112,12 @@ Power_up = function(_chance)
 ///@method perde_vida();
 perde_vida = function()
 {
- vida--;
+	vida--;
+	Screenshake(5)
+ 
  if vida = 0
  {
 	instance_destroy()
+	Screenshake(15)
  }
 }
