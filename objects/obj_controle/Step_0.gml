@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
+gamepad_connect();
 
 if(!instance_exists(obj_player1) && !gameover_seq)
 {

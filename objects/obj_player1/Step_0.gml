@@ -18,10 +18,10 @@ if keyboard_check(ord("S")){
 //Melhorando o codigo de movimentação
 
 var up, down, left, right,//Criando as variaveis
-up = keyboard_check(ord("W"))//Cima
-down = keyboard_check(ord("S"))//Baixo
-left = keyboard_check(ord("A"))//Esquerda
-right = keyboard_check(ord("D"))//Direita
+up = keyboard_check(ord("W")) or gamepad_button_check(global.gamepad_id, gp_padu) //Cima
+down = keyboard_check(ord("S")) or gamepad_button_check(global.gamepad_id, gp_padd) //Baixo
+left = keyboard_check(ord("A")) or gamepad_button_check(global.gamepad_id, gp_padl) //Esquerda
+right = keyboard_check(ord("D")) or gamepad_button_check(global.gamepad_id, gp_padr) //Direita
 
 //Dando velocidade
 /*y -= up * velocidade

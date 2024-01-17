@@ -1,4 +1,5 @@
  /// @description Insert description here
+//Sistema de controle (Joystick)
 
 vida = 3;
 
@@ -11,7 +12,7 @@ level_tiro = 1;
 //Criando o escudo
 escudo = function()
 {
-	var cri_escudo = keyboard_check_pressed(ord("E"))
+	var cri_escudo = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(global.gamepad_id, gp_face3)
 	
 	if (cri_escudo and qescudo > 0)
 	{
@@ -23,7 +24,7 @@ escudo = function()
 //Criando uma função tiro
 atirando = function()
 {
-	var fire = keyboard_check_pressed(vk_space)	//Criando o objeto tiro
+	var fire = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(global.gamepad_id, gp_face1) 	//Criando o objeto tiro
 	
 	if fire and level_tiro == 1
 	{
@@ -86,13 +87,20 @@ tiro4 = function()
 ///@method level_up(chance)
 Power_up = function(_chance)
 {
-	if (_chance >= 95)
+	if (_chance >= 90)
+	{
+		if (vida < 3)
+		{
+			vida ++;
+		}
+	}
+	else if (_chance >= 80)
 	{
 		if (level_tiro < 5)
 		{
 			level_tiro ++;
 		}
-	}
+	}	
 	else if (_chance >= 45)
 	{
 		if (qescudo < 3)
