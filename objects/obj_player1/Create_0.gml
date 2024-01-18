@@ -93,12 +93,22 @@ Power_up = function(_chance)
 		{
 			vida ++;
 		}
+		else
+		{
+			ganhando_pontos(150)
+		}
+			
 	}
 	else if (_chance >= 80)
 	{
 		if (level_tiro < 5)
 		{
 			level_tiro ++;
+		}
+		//Se Tiro == 5 _ chace recebe pontos
+		else
+		{
+			ganhando_pontos(100)
 		}
 	}	
 	else if (_chance >= 45)
@@ -107,12 +117,20 @@ Power_up = function(_chance)
 		{
 			qescudo ++;
 		}
+		else
+		{
+			ganhando_pontos(20)
+		}
 	}
 	else
 	{
-		if (velocidade < 10)
+		if (velocidade < 15)
 		{
-			velocidade += .5;
+			velocidade += .9;
+		}
+		else
+		{
+			ganhando_pontos(20)
 		}
 	}
 }

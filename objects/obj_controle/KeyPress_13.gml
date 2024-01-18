@@ -4,7 +4,7 @@
 
 if (gameover_seq)
 {
-	game_restart()
+	 game_restart()
 }
 
 
