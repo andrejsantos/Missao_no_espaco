@@ -8,11 +8,6 @@ if(!instance_exists(obj_player1) && !gameover_seq)
 
 }
 
-var reset = keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(global.gamepad_id, gp_face1)
-if (reset = gameover_seq)
-{
-	 game_restart()
-}
 
 
 
