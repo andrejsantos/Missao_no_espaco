@@ -60,14 +60,18 @@ criar_inimigo = function(){
 //Checando se tem controle	
 global.gemepad_id = noone;
 
-gamepad_connect = function(){
+gamepad_connect = function()
+{
 	var _gamepad_slot = gamepad_get_device_count();
 	
-	for(var _i = 0; _i < _gamepad_slot; _i ++){
+	for(var _i = 0; _i < _gamepad_slot; _i ++)
+	{
 		if (gamepad_is_connected(_i)){
 			global.gamepad_id = _i;
 			return true
 		}
+			return false
+			show_debug_message("Sem controle")
 	}
-	return false;
 }
+		
