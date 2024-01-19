@@ -6,7 +6,7 @@ event_inherited();
 
 //Defininco a velocidade
 speed = 6
-
+cores2 = choose(c_red, c_green)
 
 
 

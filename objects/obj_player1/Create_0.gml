@@ -1,5 +1,4 @@
  /// @description Insert description here
-//Sistema de controle (Joystick)
 
 vida = 3;
 
@@ -8,6 +7,8 @@ velocidade = 5;
 qescudo = 3;
 
 level_tiro = 1;
+
+espera_tiro = room_speed; //Espera para atirar novamente 60s
 
 //Criando o escudo
 escudo = function()
@@ -24,35 +25,41 @@ escudo = function()
 //Criando uma função tiro
 atirando = function()
 {
-	var fire = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(global.gamepad_id, gp_face1) 	//Criando o objeto tiro
-	
-	if fire and level_tiro == 1
+	var fire = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(global.gamepad_id, gp_face1)//Criando o objeto tiro
+	if (fire and alarm[0] == -1)
 	{
-		instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)	
-	}
+		alarm[0] = espera_tiro
+		if fire and level_tiro == 1
+		{
+			instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
+		}
 	
-	 else if fire and level_tiro == 2 
-	{ 
-		tiro2()
-	}
+		 else if fire and level_tiro == 2 
+		{ 
+			tiro2()
+			espera_tiro = 50
+		}
 	
-	else if fire and level_tiro == 3 
-	{
-		tiro2()
-		instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)	
-	}
+		else if fire and level_tiro == 3 
+		{
+			tiro2()
+			instance_create_layer(x, y - sprite_height/3, "Tiros", obj_Tiro_Player)
+			espera_tiro = 40
+		}
 	
-	else if fire and level_tiro == 4
-	{
-		tiro4()
-	}
+		else if fire and level_tiro == 4
+		{
+			tiro4()
+			espera_tiro = 30
+		}
 	
-	else if fire and level_tiro == 5
-	{
-		tiro2()
-		tiro4()
+		else if fire and level_tiro == 5
+		{
+			tiro2()
+			tiro4()
+			espera_tiro = 20
+		}
 	}
-
 }
 
 tiro2 = function()
@@ -83,6 +90,8 @@ tiro4 = function()
 	tiro4_es.hspeed = - 4
 	tiro4_es.image_angle = direction + 30*/
 }
+
+
 
 ///@method level_up(chance)
 Power_up = function(_chance)
@@ -147,3 +156,5 @@ perde_vida = function()
 	Screenshake(15)
  }
 }
+
+

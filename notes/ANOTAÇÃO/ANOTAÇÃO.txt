@@ -119,4 +119,8 @@
 	25.2 - Inpedindo o player de sair da tela
 	25.3 - Fazendo o drop aparecer depois de certa posição (Não vou fazer)
 	25.4 - Melhorando o sistema para level
-	25.5 - 
+	25.5 - Melhorando o sistema de pontos
+	
+26 -  BOSS!!
+	26.1 - Importando sprite
+	26.2 - 

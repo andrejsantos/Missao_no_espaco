@@ -47,26 +47,27 @@ x = clamp(x, 64, 1856)
 y = clamp(y, 65, 1020)
 
 //Criando escudo
-escudo()
+escudo();
 //Criando tiro
-atirando()
+atirando();
 
+show_debug_message(alarm[0])
 
 //Teste Level de tiro
-//if keyboard_check_pressed(vk_up) 
-//{
-//	if level_tiro < 5 //Elevando até o 5 
-//	{
-//	level_tiro ++;
-//	}
-//}
+if keyboard_check_pressed(vk_up) 
+{
+	if level_tiro < 5 //Elevando até o 5 
+	{
+	level_tiro ++;
+	}
+}
 
-//if keyboard_check_pressed(vk_down) 
-//{
-//	if level_tiro > 1 //Elevando até o 5 
-//	{
-//	level_tiro --;
-//	}
-//}
+if keyboard_check_pressed(vk_down) 
+{
+	if level_tiro > 1 //Elevando até o 5 
+	{
+	level_tiro --;
+	}
+}
 
 
