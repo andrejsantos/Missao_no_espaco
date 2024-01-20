@@ -70,8 +70,9 @@ gamepad_connect = function()
 			global.gamepad_id = _i;
 			return true
 		}
-			return false
-			show_debug_message("Sem controle")
+		else
+		global.gamepad_id = noone
+			
 	}
 }
 		

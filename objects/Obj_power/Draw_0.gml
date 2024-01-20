@@ -4,7 +4,7 @@
 draw_self();
 
 gpu_set_blendmode(bm_add);
-draw_sprite_ext(sprite_index, image_index, x, y, image_xscale + .1, image_yscale + .1, image_angle, cor, .5);
+draw_sprite_ext(sprite_index, image_index, x, y, image_xscale + .1, image_yscale + .1, image_angle, cor, .3)
 gpu_set_blendmode(bm_normal);
 
 

@@ -30,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_Powerup",
-    "path": "sprites/spr_Powerup/spr_Powerup.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

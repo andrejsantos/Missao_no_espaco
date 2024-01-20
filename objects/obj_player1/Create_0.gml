@@ -133,9 +133,10 @@ Power_up = function(_chance)
 	}
 	else
 	{
-		if (velocidade < 15)
+		if (velocidade < 15 and espera_tiro < 20)
 		{
 			velocidade += .9;
+			espera_tiro *= .9;
 		}
 		else
 		{
