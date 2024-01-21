@@ -4,7 +4,7 @@
 
 if !instance_exists(obj_inimigo1) //se NÃO existe instancia(inimigos) 
 {
-	var repetir = 10 * level;
+	var repetir = 8 * level;
 	repeat(repetir)
 	{
 		criar_inimigo()// Função criando inimigos

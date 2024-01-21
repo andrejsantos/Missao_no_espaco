@@ -7,4 +7,4 @@ ganhando_pontos(pontos);
 
 dropando_item(chancepw)
 
-Screenshake(1)
+Screenshake(4)

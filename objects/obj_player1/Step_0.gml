@@ -51,7 +51,6 @@ escudo();
 //Criando tiro
 atirando();
 
-show_debug_message(alarm[0])
 
 //Teste Level de tiro
 if keyboard_check_pressed(vk_up) 

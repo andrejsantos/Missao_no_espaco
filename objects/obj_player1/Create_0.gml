@@ -57,7 +57,7 @@ atirando = function()
 		{
 			tiro2()
 			tiro4()
-			espera_tiro = 20
+			espera_tiro = 15
 		}
 	}
 }
@@ -104,7 +104,7 @@ Power_up = function(_chance)
 		}
 		else
 		{
-			ganhando_pontos(150)
+			ganhando_pontos(100)
 		}
 			
 	}
@@ -117,7 +117,7 @@ Power_up = function(_chance)
 		//Se Tiro == 5 _ chace recebe pontos
 		else
 		{
-			ganhando_pontos(100)
+			ganhando_pontos(50)
 		}
 	}	
 	else if (_chance >= 45)
@@ -128,12 +128,12 @@ Power_up = function(_chance)
 		}
 		else
 		{
-			ganhando_pontos(20)
+			ganhando_pontos(30)
 		}
 	}
 	else
 	{
-		if (velocidade < 15 and espera_tiro < 20)
+		if (velocidade < 10 || espera_tiro < 20)
 		{
 			velocidade += .9;
 			espera_tiro *= .9;
@@ -149,12 +149,12 @@ Power_up = function(_chance)
 perde_vida = function()
 {
 	vida--;
-	Screenshake(5)
+	Screenshake(10)
  
  if vida = 0
  {
 	instance_destroy()
-	Screenshake(15)
+	Screenshake(20)
  }
 }
 
