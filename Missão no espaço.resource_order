@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Boss","order":5,"path":"folders/Objects/Inimigos/Boss.yy",},
     {"name":"Poder","order":8,"path":"folders/Objects/Poder.yy",},
@@ -10,7 +10,7 @@
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"Boss","order":7,"path":"folders/Sprites/Inimigo/Boss.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"spr_tiro_02","order":2,"path":"sprites/spr_tiro_02/spr_tiro_02.yy",},
     {"name":"spr_brilho_inimigo","order":6,"path":"sprites/spr_brilho_inimigo/spr_brilho_inimigo.yy",},
     {"name":"obj_controle","order":7,"path":"objects/obj_controle/obj_controle.yy",},
